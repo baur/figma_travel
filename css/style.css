@@ -1123,6 +1123,9 @@ img {
   .footer {
     padding: 60px 0;
   }
+  .videos {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1250,7 +1253,18 @@ img {
   .places {
     margin-bottom: 76px; 
   }
+
+  .places__view-all {
+    margin-bottom: 25px;
+  }
+
+  .places__caption {
+    margin-bottom: 0;
+  }
  
+  .tours {
+    margin-bottom: 76px;
+  }
   .tour__pic, .tour__info {
     grid-column: span 2;
   }
@@ -1263,7 +1277,37 @@ img {
   }
 
   .tours__tour {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+  }
+
+  .top {
+    margin-bottom: 76px;
+  }
+
+  .top__card {
+    grid-column: span 6;
+  }
+
+  .top__card-stats {
+    max-width: 386px;
+  }
+
+  .top__card-desc {
+    margin-bottom: 15px;
+  }
+
+  .footer__logo {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .footer__nav {
+    width: 100%;
+  }
+
+  .footer__menu {
+    width: 50%;
+    margin-bottom: 24px;
   }
 }
 
