@@ -1095,7 +1095,7 @@ img {
   }
 
   .tours__tour {
-    column-gap:35px;
+    column-gap: 35px;
   }
   .tour__info {
     padding-left: 0;
@@ -1121,8 +1121,11 @@ img {
   }
 }
 
-
 @media screen and (max-width: 768px) {
+  .header__wrapper {
+    padding-top: 28px;
+  }
+
   .header__burger {
     display: block;
   }
@@ -1180,6 +1183,34 @@ img {
   }
   .header__nav-close-line:last-child {
     transform: translateY(-50%) rotate(-45deg);
+  }
+
+  .intro {
+    padding-top: 100px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .intro__subtitle {
+    font-size: 14px;
+  }
+
+  .search-form__field {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .benefits__card {
+    grid-column: span 3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__nav {
+    padding: 70px 30px;
   }
 }
 /* Media end */
